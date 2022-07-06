@@ -16,7 +16,9 @@ rootProject.name = "Multi Module Example"
 include ':app-a'
 project(':app-a').projectDir = file("./apps/app-a")
 include ':app-b'
+project(':app-b').projectDir = file("./apps/app-b")
 include ':app-c'
+project(':app-c').projectDir = file("./apps/app-c")
 include ':module-a'
 include ':module-b'
 include ':module-c'
