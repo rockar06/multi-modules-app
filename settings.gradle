@@ -15,20 +15,20 @@ dependencyResolutionManagement {
 
 rootProject.name = "Multi Module Example"
 include ':app-a'
-project(':app-a').projectDir = file("./apps/app-a")
+project(':app-a').projectDir = file("${appsPath}app-a")
 include ':app-b'
-project(':app-b').projectDir = file("./apps/app-b")
+project(':app-b').projectDir = file("${appsPath}app-b")
 include ':app-c'
-project(':app-c').projectDir = file("./apps/app-c")
+project(':app-c').projectDir = file("${appsPath}app-c")
 include ':module-a'
-project(':module-a').projectDir = file("./features/module-a")
+project(':module-a').projectDir = file("${featuresPath}module-a")
 include ':module-b'
-project(':module-b').projectDir = file("./features/module-b")
+project(':module-b').projectDir = file("${featuresPath}module-b")
 include ':module-c'
-project(':module-c').projectDir = file("./features/module-c")
+project(':module-c').projectDir = file("${featuresPath}module-c")
 include ':module-d'
-project(':module-d').projectDir = file("./features/module-d")
+project(':module-d').projectDir = file("${featuresPath}module-d")
 include ':module-e'
-project(':module-e').projectDir = file("./features/module-e")
+project(':module-e').projectDir = file("${featuresPath}module-e")
 include ':module-f'
-project(':module-f').projectDir = file("./features/module-f")
+project(':module-f').projectDir = file("${featuresPath}module-f")
