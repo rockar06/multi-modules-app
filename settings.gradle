@@ -12,6 +12,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
 rootProject.name = "Multi Module Example"
 include ':app-a'
 project(':app-a').projectDir = file("./apps/app-a")
@@ -20,8 +21,14 @@ project(':app-b').projectDir = file("./apps/app-b")
 include ':app-c'
 project(':app-c').projectDir = file("./apps/app-c")
 include ':module-a'
+project(':module-a').projectDir = file("./features/module-a")
 include ':module-b'
+project(':module-b').projectDir = file("./features/module-b")
 include ':module-c'
+project(':module-c').projectDir = file("./features/module-c")
 include ':module-d'
+project(':module-d').projectDir = file("./features/module-d")
 include ':module-e'
+project(':module-e').projectDir = file("./features/module-e")
 include ':module-f'
+project(':module-f').projectDir = file("./features/module-f")
