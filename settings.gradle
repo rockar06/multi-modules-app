@@ -13,4 +13,6 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Multi Module Example"
-include ':app'
+include ':app-a'
+include ':app-b'
+include ':app-c'
