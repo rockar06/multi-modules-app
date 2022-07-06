@@ -14,6 +14,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Multi Module Example"
 include ':app-a'
+project(':app-a').projectDir = file("./apps/app-a")
 include ':app-b'
 include ':app-c'
 include ':module-a'
